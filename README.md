@@ -7,7 +7,7 @@ A minimal python Docker container to run simple web scraping scripts.
 
 ## Included softwares
 
-`beautifulsoup4` and `requests` and some system dependencies.
+`beautifulsoup4`, `requests`, `git`.
 
 ## Pull from GitHub Container Registry
 
