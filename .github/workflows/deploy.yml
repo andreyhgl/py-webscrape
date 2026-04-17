@@ -1,4 +1,4 @@
-name: Build & deploy Docker Container
+name: Build & Deploy Docker Container
 
 on:
   push:
@@ -57,6 +57,7 @@ jobs:
           from bs4 import BeautifulSoup
           print('All dependencies loaded OK')
           "
+          docker run --rm local-test:latest git --version
 
       - name: push
         uses: docker/build-push-action@v5
